@@ -1,4 +1,4 @@
-# pyscratch API使用手册
+# Pyscratch API使用手册
 
 ---
 ## 运动  ##
@@ -96,50 +96,68 @@ direction 单位度
 
 ## 外观
 
-#### say_for_seconds
+#### say_for_seconds(text, secs)
 
-#### say
-
-#### think_for_seconds
+#### say(text)
 
 #### think_for_seconds
+未实现
 
-#### switch_costume_to
+#### think_for_seconds
+未实现
+
+#### switch_costume_to(costume_name)
 
 造型切换为
+参数些精灵文件夹内的图片文件名，不用写图片扩展名
 
 
-#### next_costume
+#### next_costume()
+下一个场景
 
-#### switch_backdrop_to
+#### switch_backdrop_to()
 
-#### next_backdrop
+#### next_backdrop(backdrop_name)
+未实现
 
-#### change_size_by
+#### change_size_by(num)
+改变精灵大小
 
-#### set_size_to
+#### set_size_to(num)
+设置精灵大小
 
 #### change_effect_by()
+未实现
 
 effect 枚举
 
 #### set_effect_to()
+未实现
 
 effect 枚举
 
 #### clear_graphic_effects()
+未实现
 
 #### show()
+显示精灵
 
 #### hide()
+隐藏精灵
 
 #### goto_front_layer()
+转到上面图层
+未实现
 
 #### goto_back_layer()
+转到下面图层
+未实现
 
 #### go_forward_layer(num)
+未实现
 
 #### go_backward_layer(num)
+未实现
 
 #### costume{}
 字典类型变量，可以通过[数组] 或 [名称] 访问
@@ -149,23 +167,25 @@ effect 枚举
 字典类型变量，可以通过[数组] 或 [名称] 访问
 
 
-#### size
+#### size 精灵的size
 
 ## 声音
 
 #### play_sound_until_done(sound)
+未实现
 
-
-#### play_sound(sound)
-
+#### play_sound(sound_name)
+播放声音
+参数些声音文件名, 带扩展名
 
 #### stop_all_sounds()
-
+未实现
 
 #### change_effect_by()
 (和外观都有类似方法)
 
 #### set_effect_to()
+未实现
 
 参数：
 声调 pitch
@@ -187,13 +207,19 @@ effect 枚举
 
 ## 事件
 
-#### when_start()
+#### when_start(func)
+当程序开始运行时，触发func
+func是一个函数的函数名
 
+#### when_key_pressd(key_index,func)
+当某键盘按键被按下时，触发func
+func是一个函数的函数名
+所有的键盘事件都是K_ 开头
+未实现
 
-#### when_key_pressd()
-
-
-#### when_clicked()
+#### when_clicked(func)
+当某键盘按键被按下时，触发func
+func是一个函数的函数名
 
 
 #### when_backdrop_switch_to()
@@ -205,11 +231,13 @@ effect 枚举
 #### when_timer_greater_than()
 
 
-#### when_receive()
+#### when_receive(event_name, func)
+当接受到某时间，执行func
 
 
 #### broadcast(message)
-
+广播事件
+未实现
 
 #### broadcast_and_wait(message)
 
@@ -219,7 +247,7 @@ effect 枚举
 
 
 #### wait(seconds)
-
+等待 seconds 秒
 
 #### wait_util(message)
 
@@ -264,7 +292,7 @@ effect 枚举
 
 
 #### key_pressed(key)
-
+侦测键盘按键被按下事件，所有事件都已K_开头
 
 #### mouse_down()  
 
