@@ -1,14 +1,17 @@
-# What is pyscratch
-Pyscratch is a lib for programming education for children, provide api like mit scratch. 
+# What is pyscratch (pyscratch 是什么)
+Pyscratch is a python lib for programming education for children, provide api like mit scratch. 
+Pyscratch 是专为少儿编程教育开发的python库，让孩子放学习python更容易，更有趣，接口和 Scratch是一样的，可以做出scratch一样好玩的游戏。
 
-# How to use pyscratch
+
+
+# How to use pyscratch (怎样使用Pyscratch)
 pip install pyscratch
 
-# Ask questions about pyscratch?
+# Ask questions about pyscratch? （了解更多pyscratch信息，有问题要问？）
 QQ群 330400215
 Email 53733522@qq.com
 
-# Pyscratch API 使用手册
+# Pyscratch API （接口使用手册）
 
 ---
 ## 运动  ##
