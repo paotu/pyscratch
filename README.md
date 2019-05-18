@@ -4,6 +4,9 @@ Pyscratch is a lib for programming education for children, provide api like mit 
 # How to use pyscratch
 pip install pyscratch
 
+# Ask questions about pyscratch?
+QQ群 330400215
+Email 53733522@qq.com
 
 # Pyscratch API 使用手册
 
