@@ -1,5 +1,5 @@
 # what is pyscratch
-Pyscratch is a lib for program education for children, provide api like mit scratch. 
+Pyscratch is a lib for programming education for children, provide api like mit scratch. 
 
 # how to use pyscratch
 pip install pyscratch
