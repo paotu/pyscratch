@@ -10,11 +10,7 @@ pip install pyscratch
     
        
 
-# Ask questions about pyscratch? （了解更多pyscratch信息，有问题要问？）
-QQ群 330400215    
- 
-Email 53733522@qq.com    
-    
+
         
 # Pyscratch API （接口使用手册）
 
@@ -363,3 +359,11 @@ mode True 或 False
 
 
 #### second
+
+
+
+# Ask questions about pyscratch? （了解更多pyscratch信息，有问题要问？）
+QQ群 330400215    
+ 
+Email 53733522@qq.com    
+    
