@@ -2,7 +2,7 @@
 Pyscratch is a python lib for programming education for children, provide api like mit scratch.     
 Pyscratch 是专为少儿编程教育开发的python库，让孩子学习python更容易，更有趣，接口和 Scratch是一样的，可以做出scratch一样好玩的游戏。    
 
-    
+tutorial（教程）: https://www.bilibili.com/video/av53134211
        
 
 # How to use pyscratch (怎样使用Pyscratch)
